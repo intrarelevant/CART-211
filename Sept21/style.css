@@ -1,6 +1,6 @@
 body {
   background: #e8e1e3;
-  background: radial-gradient(circle,rgba(232, 225, 227, 1) 0%, rgba(143, 143, 143, 1) 100%);
+  background: radial-gradient(circle,rgba(232, 225, 227, 1) 0%, rgb(139, 131, 158) 100%);
 }
 
 h1 {
@@ -42,7 +42,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-  padding: 50 px
+  padding: 70 px
 }
 
 footer {
