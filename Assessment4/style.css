@@ -1,0 +1,101 @@
+body {
+  background: #E0E2DB;
+  background: radial-gradient(circle,rgb(246, 246, 244) 0%, rgb(210, 212, 200) 100%);
+}
+
+.nav {
+  color: #121616;   
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  width: 20%;
+  padding-left:1%;
+  padding-top:1%;
+  float: left; 
+}
+.nav a {
+    color: #121616;   
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+#wrapper {
+  width: 50%;
+  float: right;
+  padding-right:1%;
+  padding-top:1%;
+}
+
+
+img {
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+img.grid {
+    height: 200x;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bookgrid {
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+
+h1 {
+  color: #121616;
+  margin: auto ;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:36px;
+  padding-bottom: 1%;
+  letter-spacing: -2px;
+}
+
+h2 {
+  color: #434C4C;
+  margin: auto ;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:24px;
+  padding-bottom: 1%;
+  letter-spacing: -1px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto ;
+    color: #121616;
+    font-size: 12px;
+    text-align: justify;
+    line-height:1.5;
+}
+
+figure {
+    max-width: 95%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: auto ;
+    color: #121616;
+    font-size: 8px;
+    text-align: center;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: auto ;
+    color: #121616;
+    font-size: 8px;
+    text-align: right;
+}
+
+
