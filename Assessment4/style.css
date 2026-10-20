@@ -1,6 +1,9 @@
 body {
   background: #E0E2DB;
   background: radial-gradient(circle,rgb(246, 246, 244) 0%, rgb(210, 212, 200) 100%);
+  margin: 0;
+  padding:0;
+  list-style: none;
 }
 
 .nav {
@@ -13,7 +16,10 @@ body {
   padding-left:1%;
   padding-top:1%;
   float: left; 
+  position:fixed;
 }
+
+
 .nav a {
     color: #121616;   
     text-align: left;
@@ -39,9 +45,10 @@ img {
 }
 
 img.grid {
-    height: 200x;  
+    height: 200px;  
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
 }
 
 .bookgrid {
@@ -96,6 +103,96 @@ footer {
     color: #121616;
     font-size: 8px;
     text-align: right;
+    padding-top: 100px;
 }
 
+/* size adaptation for mobile */
 
+
+@media (max-width: 768px) {
+  .nav {
+  background-color: #3C3C3B;
+  color: #E0E2DB;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  word-spacing: 30px;
+  width: 110%;
+  padding-left:0%;
+  padding-top:1%;
+  padding-bottom:1%;
+  float: center; 
+  display: block;
+}
+
+.nav br {
+  display:none;
+}
+
+.nav a {
+    color: #E0E2DB;   
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+#wrapper {
+  width: 100%;
+  float: center;
+  padding-top:1%;
+}
+
+img {
+    width: 110%;
+    padding-bottom: 1%;
+    justify: center;
+}
+
+h1, h2 {
+  text-align: center;
+  line-height:1.5;
+  letter-spacing: -2px;
+}
+
+p {
+    margin: 2%;
+    font-size: 12px;
+    text-align: justify;
+    line-height:1.5;
+}
+
+.bookgrid {
+    display:grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    float: center;
+}
+
+img.grid {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    object-fit: cover;
+    max-width: 95%;
+    height: auto;  
+
+}
+
+figure {
+    max-width: auto;
+    height:auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: auto ;
+    color: #121616;
+    font-size: 8px;
+    line-height:1.5;
+    text-align: center;
+}
+}
